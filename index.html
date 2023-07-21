@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+    <title>Consulta Placa</title>
+</head>
+
+
+<body>
+    <div id="form">
+        <div class="title">
+            <h2>Consulte a Placa do Veículo</h2>
+        </div>
+
+        <div id="search">
+            <input oninput="this.value = this.value.toUpperCase()" id="searchInput" type="search" placeholder="Digite a placa" maxlength="7" required>
+            <button id="btn" type="submit" onclick="consultar()" disabled>Consultar</button>
+        </div>
+
+        <div id="resultado"  style="display:none;"></div>
+    </div>
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>

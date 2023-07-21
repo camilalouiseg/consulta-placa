@@ -1,0 +1,86 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchInput{
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    text-align: center;
+    padding: 15px 17px;
+    max-width: 300px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #bbb9b960;
+}
+
+#btn{
+    
+    padding: 18px;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    background-color: #000000;
+    width: 100%;
+    max-width: 300px;
+    cursor: pointer;
+    font-size: 17px;
+    
+}
+
+#btn:disabled{
+    background-color: #eee;
+    color: #8a8a8a;
+    cursor: auto;
+    border: 1px solid #07070731;
+}
+
+#resultado{
+    border: 3px solid #000000;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#morador, #nao-morador{
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0px 28px;
+}
+
+#infos{
+    font-size: 17px;
+    margin-right:28px;
+}
+
+#nao-morador{
+    margin: 0px 12px;
+}
